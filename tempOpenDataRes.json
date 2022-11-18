@@ -1,0 +1,1389 @@
+{
+    "nhits": 43,
+    "parameters": {
+        "dataset": [
+            "arome-0025-sp1_sp2"
+        ],
+        "lang": "fr",
+        "rows": 100,
+        "start": 0,
+        "sort": [
+            "-forecast"
+        ],
+        "format": "json",
+        "geofilter.distance": [
+            "50.725,3.15"
+        ],
+        "timezone": "Europe/Berlin"
+    },
+    "records": [
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153491",
+            "fields": {
+                "10m_wind_speed": 4.323117,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "2_metre_relative_humidity": 77.500977,
+                "2_metre_temperature": 11.806207000000029,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "forecast": "2022-11-18T13:00:00+01:00",
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153492",
+            "fields": {
+                "10m_wind_speed": 4.156112,
+                "total_precipitation": 0.001465,
+                "2_metre_relative_humidity": 73.058929,
+                "maximum_temperature_at_2_metres": 11.968682999999999,
+                "minimum_temperature_at_2_metres": 11.793115,
+                "2_metre_temperature": 11.91921400000001,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -160185.25,
+                "surface_solar_radiation_downwards": 338973.375,
+                "surface_net_thermal_radiation": -105038.6875,
+                "forecast": "2022-11-18T14:00:00+01:00",
+                "surface_net_solar_radiation": 299264.78125,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -113527.5,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153493",
+            "fields": {
+                "10m_wind_speed": 3.943336,
+                "total_precipitation": 0.001465,
+                "2_metre_relative_humidity": 73.959175,
+                "maximum_temperature_at_2_metres": 12.219019000000003,
+                "minimum_temperature_at_2_metres": 11.79305400000004,
+                "2_metre_temperature": 12.194055000000048,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -273635.5,
+                "surface_solar_radiation_downwards": 602475.5,
+                "surface_net_thermal_radiation": -197303.125,
+                "forecast": "2022-11-18T15:00:00+01:00",
+                "surface_net_solar_radiation": 530612.8125,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -184132.5,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153494",
+            "fields": {
+                "10m_wind_speed": 3.302759,
+                "total_precipitation": 0.001465,
+                "2_metre_relative_humidity": 71.594727,
+                "maximum_temperature_at_2_metres": 12.300562000000014,
+                "minimum_temperature_at_2_metres": 11.941736000000049,
+                "2_metre_temperature": 11.943262000000004,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -382420.5,
+                "surface_solar_radiation_downwards": 915720.9375,
+                "surface_net_thermal_radiation": -390015.75,
+                "forecast": "2022-11-18T16:00:00+01:00",
+                "surface_net_solar_radiation": 805540.0625,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -240063.25,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153495",
+            "fields": {
+                "10m_wind_speed": 2.420129,
+                "total_precipitation": 0.001465,
+                "2_metre_relative_humidity": 76.678345,
+                "maximum_temperature_at_2_metres": 12.01732800000002,
+                "minimum_temperature_at_2_metres": 11.129846000000043,
+                "2_metre_temperature": 11.132776000000035,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -399226.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -632096.25,
+                "forecast": "2022-11-18T17:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -268570.5,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153496",
+            "fields": {
+                "10m_wind_speed": 2.138251,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 79.753532,
+                "maximum_temperature_at_2_metres": 11.20577400000002,
+                "minimum_temperature_at_2_metres": 10.144128000000023,
+                "2_metre_temperature": 10.150964000000045,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -380732.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -887488.25,
+                "forecast": "2022-11-18T18:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -285364.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153497",
+            "fields": {
+                "10m_wind_speed": 2.416739,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 83.916153,
+                "maximum_temperature_at_2_metres": 10.132715000000019,
+                "minimum_temperature_at_2_metres": 9.086176000000023,
+                "2_metre_temperature": 9.087152000000003,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -356153.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -1127224.75,
+                "forecast": "2022-11-18T19:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -286728.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153498",
+            "fields": {
+                "10m_wind_speed": 2.933614,
+                "total_precipitation": 0.000977,
+                "2_metre_relative_humidity": 91.185883,
+                "maximum_temperature_at_2_metres": 9.075586000000044,
+                "minimum_temperature_at_2_metres": 8.423853000000008,
+                "2_metre_temperature": 8.429711999999995,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -321697.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -1367602.5,
+                "forecast": "2022-11-18T20:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -256630.5,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153499",
+            "fields": {
+                "10m_wind_speed": 3.04337,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 92.622063,
+                "maximum_temperature_at_2_metres": 8.374109000000033,
+                "minimum_temperature_at_2_metres": 7.659265000000005,
+                "2_metre_temperature": 7.655359000000033,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -271534.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -1592665.75,
+                "forecast": "2022-11-18T21:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -226989.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153500",
+            "fields": {
+                "10m_wind_speed": 2.792245,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 94.077446,
+                "maximum_temperature_at_2_metres": 7.65249,
+                "minimum_temperature_at_2_metres": 6.774834999999996,
+                "2_metre_temperature": 6.773859000000016,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -229738.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -1828135.25,
+                "forecast": "2022-11-18T22:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -208547.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153501",
+            "fields": {
+                "10m_wind_speed": 2.922686,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 94.293388,
+                "maximum_temperature_at_2_metres": 6.760645000000011,
+                "minimum_temperature_at_2_metres": 6.201990000000023,
+                "2_metre_temperature": 6.201013000000046,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -191698.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -2050119.0,
+                "forecast": "2022-11-18T23:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -196889.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153502",
+            "fields": {
+                "10m_wind_speed": 2.698785,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 93.326012,
+                "maximum_temperature_at_2_metres": 6.182794000000001,
+                "minimum_temperature_at_2_metres": 5.773584000000028,
+                "2_metre_temperature": 5.778467000000035,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -156752.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -2273235.5,
+                "forecast": "2022-11-19T00:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -187362.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153503",
+            "fields": {
+                "10m_wind_speed": 2.590697,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 90.798325,
+                "maximum_temperature_at_2_metres": 5.848352000000034,
+                "minimum_temperature_at_2_metres": 5.563806,
+                "2_metre_temperature": 5.838098000000002,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -138934.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -2422952.0,
+                "forecast": "2022-11-19T01:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -189592.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153504",
+            "fields": {
+                "10m_wind_speed": 2.731517,
+                "total_precipitation": 0.001953,
+                "2_metre_relative_humidity": 90.277145,
+                "maximum_temperature_at_2_metres": 5.913904000000002,
+                "minimum_temperature_at_2_metres": 5.810022000000004,
+                "2_metre_temperature": 5.919763000000046,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -117448.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -2618991.0,
+                "forecast": "2022-11-19T02:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -174591.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153505",
+            "fields": {
+                "10m_wind_speed": 2.909912,
+                "total_precipitation": 0.154297,
+                "2_metre_relative_humidity": 92.859848,
+                "maximum_temperature_at_2_metres": 6.039819000000023,
+                "minimum_temperature_at_2_metres": 5.59731400000004,
+                "2_metre_temperature": 5.589899000000003,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -101366.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -2769661.0,
+                "forecast": "2022-11-19T03:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -170810.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153506",
+            "fields": {
+                "10m_wind_speed": 2.542606,
+                "total_precipitation": 0.427734,
+                "2_metre_relative_humidity": 93.117088,
+                "maximum_temperature_at_2_metres": 5.926355000000001,
+                "minimum_temperature_at_2_metres": 5.505151000000012,
+                "2_metre_temperature": 5.928979000000027,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -93944.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -2842833.0,
+                "forecast": "2022-11-19T04:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -179175.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153507",
+            "fields": {
+                "10m_wind_speed": 2.737427,
+                "total_precipitation": 0.443359,
+                "2_metre_relative_humidity": 94.268387,
+                "maximum_temperature_at_2_metres": 6.319817999999998,
+                "minimum_temperature_at_2_metres": 5.82705100000004,
+                "2_metre_temperature": 6.325098000000025,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -100024.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -2880571.5,
+                "forecast": "2022-11-19T05:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -198452.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153508",
+            "fields": {
+                "10m_wind_speed": 3.079416,
+                "total_precipitation": 0.443359,
+                "2_metre_relative_humidity": 95.375435,
+                "maximum_temperature_at_2_metres": 6.446558000000039,
+                "minimum_temperature_at_2_metres": 6.20232500000003,
+                "2_metre_temperature": 6.444513000000029,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -69772.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -3050417.5,
+                "forecast": "2022-11-19T06:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -182432.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153509",
+            "fields": {
+                "10m_wind_speed": 3.223192,
+                "total_precipitation": 0.457031,
+                "2_metre_relative_humidity": 94.326416,
+                "maximum_temperature_at_2_metres": 7.14830900000004,
+                "minimum_temperature_at_2_metres": 6.484033000000011,
+                "2_metre_temperature": 7.031885000000045,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -51780.0,
+                "surface_solar_radiation_downwards": 1021275.0,
+                "surface_net_thermal_radiation": -3153637.0,
+                "forecast": "2022-11-19T07:00:00+01:00",
+                "surface_net_solar_radiation": 897569.1875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -195520.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153510",
+            "fields": {
+                "10m_wind_speed": 3.621411,
+                "total_precipitation": 0.455078,
+                "2_metre_relative_humidity": 93.817345,
+                "maximum_temperature_at_2_metres": 7.402429000000041,
+                "minimum_temperature_at_2_metres": 7.02767300000005,
+                "2_metre_temperature": 7.4104860000000485,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -43620.0,
+                "surface_solar_radiation_downwards": 1021210.0,
+                "surface_net_thermal_radiation": -3196271.5,
+                "forecast": "2022-11-19T08:00:00+01:00",
+                "surface_net_solar_radiation": 897546.3125,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -237298.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153511",
+            "fields": {
+                "10m_wind_speed": 3.721569,
+                "total_precipitation": 0.457031,
+                "2_metre_relative_humidity": 94.382393,
+                "maximum_temperature_at_2_metres": 7.854700000000037,
+                "minimum_temperature_at_2_metres": 7.3659300000000485,
+                "2_metre_temperature": 7.858789000000002,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -57072.0,
+                "surface_solar_radiation_downwards": 1060738.875,
+                "surface_net_thermal_radiation": -3212820.0,
+                "forecast": "2022-11-19T09:00:00+01:00",
+                "surface_net_solar_radiation": 932504.6875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -293066.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153512",
+            "fields": {
+                "10m_wind_speed": 3.627629,
+                "total_precipitation": 0.535156,
+                "2_metre_relative_humidity": 92.663445,
+                "maximum_temperature_at_2_metres": 8.62490200000002,
+                "minimum_temperature_at_2_metres": 7.858057000000031,
+                "2_metre_temperature": 8.620020000000011,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -96252.0,
+                "surface_solar_radiation_downwards": 1206999.125,
+                "surface_net_thermal_radiation": -3254470.0,
+                "forecast": "2022-11-19T10:00:00+01:00",
+                "surface_net_solar_radiation": 1061454.5,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -358354.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153513",
+            "fields": {
+                "10m_wind_speed": 2.470038,
+                "total_precipitation": 1.585938,
+                "2_metre_relative_humidity": 92.019119,
+                "maximum_temperature_at_2_metres": 8.74648400000001,
+                "minimum_temperature_at_2_metres": 7.694788000000017,
+                "2_metre_temperature": 7.703516000000036,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -138092.0,
+                "surface_solar_radiation_downwards": 1274309.0,
+                "surface_net_thermal_radiation": -3273845.0,
+                "forecast": "2022-11-19T11:00:00+01:00",
+                "surface_net_solar_radiation": 1121091.75,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -427508.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153514",
+            "fields": {
+                "10m_wind_speed": 2.948623,
+                "total_precipitation": 1.837891,
+                "2_metre_relative_humidity": 91.432899,
+                "maximum_temperature_at_2_metres": 7.733025999999995,
+                "minimum_temperature_at_2_metres": 6.087488000000008,
+                "2_metre_temperature": 6.095331000000044,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -204056.0,
+                "surface_solar_radiation_downwards": 1296802.5,
+                "surface_net_thermal_radiation": -3295937.0,
+                "forecast": "2022-11-19T12:00:00+01:00",
+                "surface_net_solar_radiation": 1141255.875,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -521676.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153515",
+            "fields": {
+                "10m_wind_speed": 3.299618,
+                "total_precipitation": 1.853516,
+                "2_metre_relative_humidity": 91.019623,
+                "maximum_temperature_at_2_metres": 6.077844000000027,
+                "minimum_temperature_at_2_metres": 5.832910000000027,
+                "2_metre_temperature": 5.873743000000047,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -307480.0,
+                "surface_solar_radiation_downwards": 1473041.375,
+                "surface_net_thermal_radiation": -3327518.0,
+                "forecast": "2022-11-19T13:00:00+01:00",
+                "surface_net_solar_radiation": 1296942.5,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -652686.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153516",
+            "fields": {
+                "10m_wind_speed": 3.030694,
+                "total_precipitation": 1.853516,
+                "2_metre_relative_humidity": 89.927574,
+                "maximum_temperature_at_2_metres": 5.869989000000032,
+                "minimum_temperature_at_2_metres": 5.349634000000037,
+                "2_metre_temperature": 5.352747000000022,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -479336.0,
+                "surface_solar_radiation_downwards": 1867639.5,
+                "surface_net_thermal_radiation": -3387635.0,
+                "forecast": "2022-11-19T14:00:00+01:00",
+                "surface_net_solar_radiation": 1644922.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -857442.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153517",
+            "fields": {
+                "10m_wind_speed": 2.736198,
+                "total_precipitation": 1.853516,
+                "2_metre_relative_humidity": 89.27179,
+                "maximum_temperature_at_2_metres": 5.35116000000005,
+                "minimum_temperature_at_2_metres": 4.851099000000033,
+                "2_metre_temperature": 4.8516480000000115,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -597856.0,
+                "surface_solar_radiation_downwards": 2073937.5,
+                "surface_net_thermal_radiation": -3441426.0,
+                "forecast": "2022-11-19T15:00:00+01:00",
+                "surface_net_solar_radiation": 1826747.0,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1034146.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153518",
+            "fields": {
+                "10m_wind_speed": 2.294002,
+                "total_precipitation": 1.853516,
+                "2_metre_relative_humidity": 88.516815,
+                "maximum_temperature_at_2_metres": 4.8498780000000465,
+                "minimum_temperature_at_2_metres": 4.697473000000002,
+                "2_metre_temperature": 4.690637000000038,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -678832.0,
+                "surface_solar_radiation_downwards": 2187952.25,
+                "surface_net_thermal_radiation": -3486800.0,
+                "forecast": "2022-11-19T16:00:00+01:00",
+                "surface_net_solar_radiation": 1927281.0,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1182600.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153519",
+            "fields": {
+                "10m_wind_speed": 2.184096,
+                "total_precipitation": 1.851562,
+                "2_metre_relative_humidity": 88.871399,
+                "maximum_temperature_at_2_metres": 4.701013000000046,
+                "minimum_temperature_at_2_metres": 4.442834000000005,
+                "2_metre_temperature": 4.444788000000017,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -730200.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3525281.0,
+                "forecast": "2022-11-19T17:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1306650.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153520",
+            "fields": {
+                "10m_wind_speed": 1.844596,
+                "total_precipitation": 1.851562,
+                "2_metre_relative_humidity": 88.178131,
+                "maximum_temperature_at_2_metres": 4.451532000000043,
+                "minimum_temperature_at_2_metres": 4.369135000000028,
+                "2_metre_temperature": 4.368158000000051,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -766696.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3558676.0,
+                "forecast": "2022-11-19T18:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1416616.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153521",
+            "fields": {
+                "10m_wind_speed": 1.910018,
+                "total_precipitation": 1.851562,
+                "2_metre_relative_humidity": 88.036758,
+                "maximum_temperature_at_2_metres": 4.3181090000000495,
+                "minimum_temperature_at_2_metres": 4.016748000000007,
+                "2_metre_temperature": 4.017725000000041,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -800552.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3591601.0,
+                "forecast": "2022-11-19T19:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1502878.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153522",
+            "fields": {
+                "10m_wind_speed": 1.873978,
+                "total_precipitation": 1.863281,
+                "2_metre_relative_humidity": 85.874222,
+                "maximum_temperature_at_2_metres": 4.021722000000011,
+                "minimum_temperature_at_2_metres": 3.6985109999999963,
+                "2_metre_temperature": 3.6965580000000386,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -840264.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3626632.0,
+                "forecast": "2022-11-19T20:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1562830.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153523",
+            "fields": {
+                "10m_wind_speed": 2.277073,
+                "total_precipitation": 1.888672,
+                "2_metre_relative_humidity": 85.481354,
+                "maximum_temperature_at_2_metres": 3.6874329999999986,
+                "minimum_temperature_at_2_metres": 3.371729000000016,
+                "2_metre_temperature": 3.381494000000032,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -882992.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3663650.0,
+                "forecast": "2022-11-19T21:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1622990.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153524",
+            "fields": {
+                "10m_wind_speed": 1.646308,
+                "total_precipitation": 1.900391,
+                "2_metre_relative_humidity": 86.740463,
+                "maximum_temperature_at_2_metres": 3.3757570000000214,
+                "minimum_temperature_at_2_metres": 3.159357,
+                "2_metre_temperature": 3.1554500000000303,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -927416.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3697716.0,
+                "forecast": "2022-11-19T22:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1682936.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153525",
+            "fields": {
+                "10m_wind_speed": 1.690529,
+                "total_precipitation": 1.916016,
+                "2_metre_relative_humidity": 87.101685,
+                "maximum_temperature_at_2_metres": 3.1525210000000357,
+                "minimum_temperature_at_2_metres": 2.9674930000000472,
+                "2_metre_temperature": 2.9731080000000247,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -966104.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3733076.0,
+                "forecast": "2022-11-19T23:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1741752.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153526",
+            "fields": {
+                "10m_wind_speed": 1.455381,
+                "total_precipitation": 1.9375,
+                "2_metre_relative_humidity": 87.82254,
+                "maximum_temperature_at_2_metres": 2.986963000000003,
+                "minimum_temperature_at_2_metres": 2.9030400000000327,
+                "2_metre_temperature": 2.9020629999999983,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1000928.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3766443.0,
+                "forecast": "2022-11-20T00:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1797804.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153527",
+            "fields": {
+                "10m_wind_speed": 1.15888,
+                "total_precipitation": 1.953125,
+                "2_metre_relative_humidity": 88.65358,
+                "maximum_temperature_at_2_metres": 2.912073000000021,
+                "minimum_temperature_at_2_metres": 2.889062000000024,
+                "2_metre_temperature": 2.9134770000000003,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1034928.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3802233.0,
+                "forecast": "2022-11-20T01:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1851658.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153528",
+            "fields": {
+                "10m_wind_speed": 1.591026,
+                "total_precipitation": 1.96875,
+                "2_metre_relative_humidity": 89.257515,
+                "maximum_temperature_at_2_metres": 3.001062000000047,
+                "minimum_temperature_at_2_metres": 2.9037720000000036,
+                "2_metre_temperature": 2.8949830000000247,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1060376.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3861362.0,
+                "forecast": "2022-11-20T02:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1897804.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153529",
+            "fields": {
+                "10m_wind_speed": 1.58945,
+                "total_precipitation": 1.96875,
+                "2_metre_relative_humidity": 89.466377,
+                "maximum_temperature_at_2_metres": 2.911401000000012,
+                "minimum_temperature_at_2_metres": 2.843347000000051,
+                "2_metre_temperature": 2.9126830000000155,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1074720.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3940744.0,
+                "forecast": "2022-11-20T03:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1930790.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153530",
+            "fields": {
+                "10m_wind_speed": 1.527361,
+                "total_precipitation": 1.972656,
+                "2_metre_relative_humidity": 90.197388,
+                "maximum_temperature_at_2_metres": 2.925927999999999,
+                "minimum_temperature_at_2_metres": 2.8698970000000372,
+                "2_metre_temperature": 2.9353270000000293,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1095432.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -3980388.0,
+                "forecast": "2022-11-20T04:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -1972086.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153531",
+            "fields": {
+                "10m_wind_speed": 2.033132,
+                "total_precipitation": 1.972656,
+                "2_metre_relative_humidity": 90.411362,
+                "maximum_temperature_at_2_metres": 3.047601000000043,
+                "minimum_temperature_at_2_metres": 2.9496090000000095,
+                "2_metre_temperature": 3.046625000000006,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1120912.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -4011056.0,
+                "forecast": "2022-11-20T05:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -2018596.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153532",
+            "fields": {
+                "10m_wind_speed": 2.247216,
+                "total_precipitation": 1.972656,
+                "2_metre_relative_humidity": 90.853386,
+                "maximum_temperature_at_2_metres": 3.253442000000007,
+                "minimum_temperature_at_2_metres": 3.0747310000000425,
+                "2_metre_temperature": 3.2495360000000346,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1147096.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -4033432.0,
+                "forecast": "2022-11-20T06:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -2062228.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        },
+        {
+            "datasetid": "arome-0025-sp1_sp2",
+            "recordid": "arome_0025_sp1_sp2_sp3_lastgrib2-3153533",
+            "fields": {
+                "10m_wind_speed": 2.286947,
+                "total_precipitation": 1.972656,
+                "2_metre_relative_humidity": 90.943604,
+                "maximum_temperature_at_2_metres": 3.818689000000006,
+                "minimum_temperature_at_2_metres": 3.2845700000000306,
+                "2_metre_temperature": 3.811304000000007,
+                "position": [
+                    50.725,
+                    3.15
+                ],
+                "surface_latent_heat_flux": -1169432.0,
+                "surface_solar_radiation_downwards": 2212009.75,
+                "surface_net_thermal_radiation": -4050368.0,
+                "forecast": "2022-11-20T07:00:00+01:00",
+                "surface_net_solar_radiation": 1948723.25,
+                "timestamp": "2022-11-18T13:00:00+01:00",
+                "surface_sensible_heat_flux": -2126188.0,
+                "dist": "0.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15,
+                    50.725
+                ]
+            },
+            "record_timestamp": "2022-11-18T13:00:00+01:00"
+        }
+    ]
+}

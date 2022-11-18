@@ -40,8 +40,48 @@ async function launchAlert(name){
             await playAudio(sncfAudio)
             console.log('son '+ name +' terminé')
         break;
+        case 'ratpMusic':
+            console.log('[lauchAlert] Ratp!')
+            let ratpAudio=new Audio('./sounds/RATP_matin..mp3')
+            await playAudio(ratpAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case 'sncfAnnonce':
+            console.log('[lauchAlert] Sncf Notif!')
+            let ssncfAudio=new Audio('./sounds/sncf_annonce.mp3')
+            await playAudio(ssncfAudio)
+            console.log('son '+ name +' terminé')
+        break;
 
         //EVENTS
+        case 'meteo-tom':
+            console.log('[lauchAlert] Météo pour demain! [Annonce]')
+            let dmAudio=new Audio('./sounds/meteo/meteo-demain.mp3')
+            await playAudio(dmAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'meteo-today':
+            console.log('[lauchAlert] Météo pour demain! [Annonce]')
+            let tdAudio=new Audio('./sounds/meteo/today-meteo.mp3')
+            await playAudio(tdAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'minimal-temp':
+            console.log('[lauchAlert] Météo pour demain! [Températures minimale?]')
+            let minAudio=new Audio('./sounds/meteo/minimal-temp.mp3')
+            await playAudio(minAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'maximal-temp':
+            console.log('[lauchAlert] Météo pour demain! [Températures maximales?]')
+            let maxAudio=new Audio('./sounds/meteo/max-temp.mp3')
+            await playAudio(maxAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
         case 'manger':
             console.log('[lauchAlert] Notification pour manger!')
             let eatAudio=new Audio('./sounds/eat.mp3')
@@ -49,10 +89,61 @@ async function launchAlert(name){
             console.log('son '+ name +' terminé')
             eventSaid = true
         break;
+        case 'bye':
+            console.log('[lauchAlert] Au revoir.')
+            let byeAudio=new Audio('./sounds/bye.mp3')
+            await playAudio(byeAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
         case 'stopSystem':
             console.log('[lauchAlert] Notifcation pour extinction du système')
             let endAudio=new Audio('./sounds/goodbye.mp3')
             await playAudio(endAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'wakingUp':
+            console.log('[lauchAlert] Notification de réveil du système')
+            let helloAudio=new Audio('./sounds/waking_up..mp3')
+            await playAudio(helloAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'good-day':
+            console.log('[lauchAlert] Notification de bonne journée.')
+            let goodDayAudio=new Audio('./sounds/good-bye.mp3')
+            await playAudio(goodDayAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'noHomework':
+            console.log('[lauchAlert] Notification de non présence de devoirs.')
+            let noHmAudio=new Audio('./sounds/no_homework.mp3')
+            await playAudio(noHmAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'Homework':
+            console.log('[lauchAlert] Notification de non présence de devoirs.')
+            let HmAudio=new Audio('./sounds/homework.mp3')
+            await playAudio(HmAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+
+        //CALENDRIER
+        case 'noEvents':
+            console.log('[lauchAlert] Notification de non présence d\'évennements.')
+            let noEvtAudio=new Audio('./sounds/events/no_event.mp3')
+            await playAudio(noEvtAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'Events':
+            console.log('[lauchAlert] Notification de présence d\'évennements.')
+            let EvtAudio=new Audio('./sounds/events/event_in.mp3')
+            await playAudio(EvtAudio)
             console.log('son '+ name +' terminé')
             eventSaid = true
         break;
@@ -275,6 +366,14 @@ async function sayHours(hour){
             eventSaid = true
             await launchAlert('notif')
             await launchAlert('7h')
+            await launchAlert('ratpMusic')
+            await launchAlert('wakingUp')
+            await launchAlert('noEvents')
+            await launchAlert('meteo-today')
+            await launchAlert('minimal-temp')
+            await launchAlert('maximal-temp')
+            await launchAlert('good-day')
+            await launchAlert('sncfAnnonce')
             setTimeout(() => {  eventSaid=false }, 66000);
             break;
         case '7:30':
@@ -451,6 +550,7 @@ async function sayHours(hour){
             eventSaid = true
             await launchAlert('notif')
             await launchAlert('21h30')
+            await launchAlert('manger')
             setTimeout(() => {  eventSaid=false }, 66000);
             break;
         case '22:00':
@@ -471,6 +571,11 @@ async function sayHours(hour){
             await launchAlert('23h')
             await launchAlert('sncfMusic')
             await launchAlert('stopSystem')
+            await launchAlert('noHomework')
+            await launchAlert('meteo-tom')
+            await launchAlert('minimal-temp')
+            await launchAlert('maximal-temp')
+            await launchAlert('bye')
             setTimeout(() => {  eventSaid=false }, 66000);
             break;
         default:
@@ -484,11 +589,11 @@ async function sayHours(hour){
 window.onload = function(){
     showHour('00:00');
     setInterval(function(){
-        let now = new Date();
+        /*let now = new Date();
         let ampm = now.toLocaleTimeString('default', {
         hour: '2-digit',
         minute: '2-digit'
-    });
+    });*/
         showHour(ampm);
         console.log("[showHour] "+ampm);
 
