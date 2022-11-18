@@ -5,6 +5,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 let isLaunched = false
+let eventSaid = false
 
 function playAudio(audio){
     return new Promise(res=>{
@@ -13,20 +14,237 @@ function playAudio(audio){
     })
 }
 
+
+//DICTIONNAIRE DE SONS
+
 async function launchAlert(name){
     switch(name){
+
+
+        //SFX
         case 'notif':
-            console.log('Notif!')
+            console.log('[lauchAlert] Notif!')
             let notifAudio=new Audio('./sounds/notif.mp3')
             await playAudio(notifAudio)
-            console.log('son '+ name +' lancé')
+            console.log('son '+ name +' terminé')
+        break;
+        case 'systemNotif':
+            console.log('[lauchAlert] Notif!')
+            let sysAudio=new Audio('./sounds/system.mp3')
+            await playAudio(sysAudio)
+            console.log('son '+ name +' terminé')
+        break;
+
+        //EVENTS
+        case 'manger':
+            console.log('[lauchAlert] Notifcation pour manger!')
+            let eatAudio=new Audio('./sounds/eat.mp3')
+            await playAudio(eatAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+
+
+        //HEURES
+        case '7h':
+            console.log('[lauchAlert] 7h00!')
+            let ssAudio=new Audio('./sounds/hours/7h.mp3')
+            await playAudio(ssAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '7h30':
+            console.log('[lauchAlert] 7h30!')
+            let ssaudio=new Audio('./sounds/hours/7h30.mp3')
+            await playAudio(ssaudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '8h':
+            console.log('[lauchAlert] 8h00!')
+            let WAudio=new Audio('./sounds/hours/8h.mp3')
+            await playAudio(WAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '8h30':
+            console.log('[lauchAlert] 8h30!')
+            let odio=new Audio('./sounds/hours/8h30.mp3')
+            await playAudio(odio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '9h':
+            console.log('[lauchAlert] 9h00!')
+            let PAudio=new Audio('./sounds/hours/9h.mp3')
+            await playAudio(PAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '9h30':
+            console.log('[lauchAlert] 9h30!')
+            let oAudio=new Audio('./sounds/hours/9h30.mp3')
+            await playAudio(oAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '10h':
+            console.log('[lauchAlert] 10h00!')
+            let RAudio=new Audio('./sounds/hours/10h.mp3')
+            await playAudio(RAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '10h30':
+            console.log('[lauchAlert] 10h30!')
+            let KAudio=new Audio('./sounds/hours/10h30.mp3')
+            await playAudio(KAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '11h':
+            console.log('[lauchAlert] 11h00!')
+            let DAudio=new Audio('./sounds/hours/11h.mp3')
+            await playAudio(DAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '11h30':
+            console.log('[lauchAlert] 11h30!')
+            let FAudio=new Audio('./sounds/hours/11h30.mp3')
+            await playAudio(FAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '12h':
+            console.log('[lauchAlert] 12h00!')
+            let nAudio=new Audio('./sounds/hours/12h.mp3')
+            await playAudio(nAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '12h30':
+            console.log('[lauchAlert] 12h30!')
+            let AAudio=new Audio('./sounds/hours/12h30.mp3')
+            await playAudio(AAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '13h':
+            console.log('[lauchAlert] 13h00!')
+            let aAudio=new Audio('./sounds/hours/13h.mp3')
+            await playAudio(aAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '13h30':
+            console.log('[lauchAlert] 13h30!')
+            let rAudio=new Audio('./sounds/hours/13h30.mp3')
+            await playAudio(rAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '14h':
+            console.log('[lauchAlert] 14h00!')
+            let eAudio=new Audio('./sounds/hours/14h.mp3')
+            await playAudio(eAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '14h30':
+            console.log('[lauchAlert] 14h30!')
+            let tAudio=new Audio('./sounds/hours/14h30.mp3')
+            await playAudio(tAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '15h':
+            console.log('[lauchAlert] 15h00!')
+            let sAudio=new Audio('./sounds/hours/15h.mp3')
+            await playAudio(sAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '15h30':
+            console.log('[lauchAlert] 15h30!')
+            let qAudio=new Audio('./sounds/hours/15h30.mp3')
+            await playAudio(qAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '16h':
+            console.log('[lauchAlert] 16h00!')
+            let wAudio=new Audio('./sounds/hours/16h.mp3')
+            await playAudio(wAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '16h30':
+            console.log('[lauchAlert] 16h30!')
+            let jAudio=new Audio('./sounds/hours/16h30.mp3')
+            await playAudio(jAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '17h':
+            console.log('[lauchAlert] 17h00!')
+            let xAudio=new Audio('./sounds/hours/17h.mp3')
+            await playAudio(xAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '17h30':
+            console.log('[lauchAlert] 17h30!')
+            let iAudio=new Audio('./sounds/hours/17h30.mp3')
+            await playAudio(iAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '18h':
+            console.log('[lauchAlert] 18h00!')
+            let cAudio=new Audio('./sounds/hours/18h.mp3')
+            await playAudio(cAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '18h30':
+            console.log('[lauchAlert] 18h30!')
+            let bAudio=new Audio('./sounds/hours/18h30.mp3')
+            await playAudio(bAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '19h':
+            console.log('[lauchAlert] 19h00!')
+            let gAudio=new Audio('./sounds/hours/19h.mp3')
+            await playAudio(gAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '19h30':
+            console.log('[lauchAlert] 19h30!')
+            let hAudio=new Audio('./sounds/hours/19h30.mp3')
+            await playAudio(hAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '20h':
+            console.log('[lauchAlert] 20h00!')
+            let kAudio=new Audio('./sounds/hours/20h.mp3')
+            await playAudio(kAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '20h30':
+            console.log('[lauchAlert] 20h30!')
+            let mAudio=new Audio('./sounds/hours/20h30.mp3')
+            await playAudio(mAudio)
+            console.log('son '+ name +' terminé')
         break;
         case '21h':
-            console.log('21h!')
-            let hourAudio=new Audio('./sounds/hours/21h.mp3')
-            await playAudio(hourAudio)
-            console.log('son '+ name +' lancé')
+            console.log('[lauchAlert] 21h!')
+            let BAudio=new Audio('./sounds/hours/21h.mp3')
+            await playAudio(BAudio)
+            console.log('son '+ name +' terminé')
         break;
+        case '21h30':
+            console.log('[lauchAlert] 21h30!')
+            let vAudio=new Audio('./sounds/hours/21h30.mp3')
+            await playAudio(vAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '22h':
+            console.log('[lauchAlert] 22h!')
+            let EAudio=new Audio('./sounds/hours/22h.mp3')
+            await playAudio(EAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '22h30':
+            console.log('[lauchAlert] 22h30!')
+            let ZAudio=new Audio('./sounds/hours/22h30.mp3')
+            await playAudio(ZAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        case '23h':
+            console.log('[lauchAlert] 23h!')
+            let fAudio=new Audio('./sounds/hours/23h.mp3')
+            await playAudio(fAudio)
+            console.log('son '+ name +' terminé')
+        break;
+        
     }
     isLaunched = true
     //RESET DU BOUTON
@@ -40,18 +258,43 @@ async function launchAlert(name){
 
 async function sayHours(hour){
     switch(hour){
-        case '21h':
+        case '12:30':
+            eventSaid = true
             await launchAlert('notif')
-            launchAlert('21h')
+            await launchAlert('12h30')
+            await launchAlert('systemNotif')
+            launchAlert('manger')
+        case '12:31':
+            eventSaid = false
     }
 }
 
 
+window.onload = function(){
+    showHour('00:00');
+    setInterval(function(){
+        let now = new Date();
+        let ampm = now.toLocaleTimeString('default', {
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+        showHour(ampm);
+        console.log("[showHour] "+ampm);
+
+        if(eventSaid) return console.log("[ampm] Alerte déjà diffusée.");
+        sayHours(ampm)
+    }, 10000)
+
+}
+
+
+
+
 let lastHour='00:00'
-function showHour(hour){
+async function showHour(hour){
     ctx.fillStyle = '#000000';
+    ctx.fillRect(10, 10, 200, 100)
     ctx.font = '60px Arial'
-    ctx.fillText(lastHour, 10, 100)
     ctx.fillStyle = "#FFFFFF";
     ctx.fillText(hour, 10, 100)
 }
@@ -63,10 +306,6 @@ ctx.fillRect(250, 350, 300, 100);
 ctx.fillStyle = "#303030";
 ctx.font = '30px Arial'
 ctx.fillText('Lancer alerte', 300, 410)
-
-ctx.fillStyle = "#FFFFFF";
-ctx.font = '60px Arial'
-ctx.fillText('Lancer alerte', 10, 100)
 
 //Function to get the mouse position
 function getMousePos(canvas, event) {
