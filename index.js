@@ -34,12 +34,25 @@ async function launchAlert(name){
             await playAudio(sysAudio)
             console.log('son '+ name +' terminé')
         break;
+        case 'sncfMusic':
+            console.log('[lauchAlert] Sncf!')
+            let sncfAudio=new Audio('./sounds/sncf_soir.mp3')
+            await playAudio(sncfAudio)
+            console.log('son '+ name +' terminé')
+        break;
 
         //EVENTS
         case 'manger':
-            console.log('[lauchAlert] Notifcation pour manger!')
+            console.log('[lauchAlert] Notification pour manger!')
             let eatAudio=new Audio('./sounds/eat.mp3')
             await playAudio(eatAudio)
+            console.log('son '+ name +' terminé')
+            eventSaid = true
+        break;
+        case 'stopSystem':
+            console.log('[lauchAlert] Notifcation pour extinction du système')
+            let endAudio=new Audio('./sounds/goodbye.mp3')
+            await playAudio(endAudio)
             console.log('son '+ name +' terminé')
             eventSaid = true
         break;
@@ -258,16 +271,214 @@ async function launchAlert(name){
 
 async function sayHours(hour){
     switch(hour){
+        case '7:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('7h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '7:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('7h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '8:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('8h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '8:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('8h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '9:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('9h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '9:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('9h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '10:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('10h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '10:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('10h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '11:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('11h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '11:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('11h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '12:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('12h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
         case '12:30':
             eventSaid = true
             await launchAlert('notif')
             await launchAlert('12h30')
             await launchAlert('systemNotif')
             launchAlert('manger')
-        case '12:31':
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '13:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('13h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '13:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('13h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '14:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('14h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '14:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('14h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '15:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('15h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '15:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('15h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '16:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('16h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '16:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('16h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '17:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('17h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '17:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('17h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '18:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('18h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '18:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('18h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '19:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('19h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '19:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('19h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '20:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('20h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '20:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('20h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '21:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('21h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '21:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('21h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '22:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('22h')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '22:30':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('22h30')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        case '23:00':
+            eventSaid = true
+            await launchAlert('notif')
+            await launchAlert('23h')
+            await launchAlert('sncfMusic')
+            await launchAlert('stopSystem')
+            setTimeout(() => {  eventSaid=false }, 66000);
+            break;
+        default:
             eventSaid = false
+        break;
     }
 }
+
 
 
 window.onload = function(){
