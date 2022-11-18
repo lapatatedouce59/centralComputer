@@ -1,4 +1,4 @@
-# PROJET DE NSI 1
+# PROJET D'ORDINATEUR CENTRAL
 > Système d'horloge inteligente automatique
 
 ## Historique
